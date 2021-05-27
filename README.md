@@ -4,23 +4,31 @@ Seja bem vindo(a) à quarta Semana Javascript Expert.Este é o código inicial p
 
 Marque esse projeto com uma estrela 🌟
 
+## Install
+```
+install dependencies front -> cd /app run npm i or yarn
+
+install dependencies server -> cd /server run npm i or yarn 
+
+```
 ## Run
 ```
-cd /app exe
+front -> cd /app execute yarn or npm start
+server -> cd /server execute yarn or npm dev
 ```
 ## Preview
 
 ### Página de Login
 
-<img src="./assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
+<img src="./app/assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
 
 ### Página de Salas
 
-<img src="./assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
+<img src="./app/assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
 
 ### Página de Sala
 
-<img src="./assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
+<img src="./app/assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
 
 ## Checklist Features
 
@@ -41,18 +49,18 @@ cd /app exe
   - [x] Cria uma sala com um usuário dono
   - [x] Todos usuários futuros entram com perfil de attendees
   - [ ] Notifica Lobby sobre atualizações na sala
-  - [ ] Lista usuarios com perfis de speakers e attendees
-  - [ ] Se o dono da sala desconectar, será removida
+  - [x] Lista usuarios com perfis de speakers e attendees
+  - [x] Se o dono da sala desconectar, será removida
   - Users
     - Speaker
       - [ ] Recebe notificação de attendees para se tornarem speakers
-      - [ ] Atualizam a tela o upgrade de attendee para speaker
+      - [x] Atualizam a tela o upgrade de attendee para speaker
       - [ ] Poderá deixar seu microfone mudo
       - Se dono da sala
         - [ ] Pode aprovar attendees a virarem speakers
         - Ao se desconectar
-          - [ ] Promove o speaker mais velho da sala
-          - [ ] Se não houver speaker promove o attendee mais velho da sala
+          - [x] Promove o speaker mais velho da sala
+          - [x] Se não houver speaker promove o attendee mais velho da sala
     - Attendee
       - [ ] Pode ouvir speakers ativos
       - [ ] Pode pedir upgrade de perfil ao dono da sala

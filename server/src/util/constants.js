@@ -5,6 +5,8 @@ export const constants = {
 
         JOIN_ROOM: 'joinRoom',
 
-        LOBBY_UPDATED: 'lobbyUpdated'
+        LOBBY_UPDATED: 'lobbyUpdated',
+
+        UPGRADE_USER_PERMISSION: 'upgradeUserPermission'
     }
 }
