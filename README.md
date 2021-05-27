@@ -1,8 +1,4 @@
-# ClubHouse Clone Template - Semana JS Expert 4.0
-
-Seja bem vindo(a) à quarta Semana Javascript Expert.Este é o código inicial para iniciar nossa jornada.
-
-Marque esse projeto com uma estrela 🌟
+# Week JS Expert 4.0
 
 ## Install
 ```
